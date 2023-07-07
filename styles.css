@@ -44,6 +44,11 @@ nav {
   background-color: white;
   color: var(--miAzul);
 }
+.miBtnActive{
+  background-color: var(--miAmarillo);
+  color: var(--miAzul);
+  border: solid 2px var(--miAzul);
+}
 /* MAIN */
 /* TARJETAS */
 #imgLauta {
@@ -114,7 +119,7 @@ nav {
   }
 }
 @media (min-width: 992px) {
-  #divTitulo {
+  .divTitulo {
     display: flex;
     flex-direction: column;
   }
