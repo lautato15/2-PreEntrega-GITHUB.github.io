@@ -9,9 +9,10 @@
   --miAzul: #1c2230;
   --miAmarillo: #ffc107;
 }
+
 @font-face {
   font-family: "musiciancrush";
-  src: url("./assets/fonts/Musician\ Crush\ DEMO.ttf") format("truetype");
+  src: url("./assets/fonts/Musician Crush DEMO.ttf") format("truetype");
 }
 #divBg {
   background-image: url(./assets/img/montevideobgmobile.jpg);
@@ -23,50 +24,61 @@
 nav {
   background-color: rgba(76, 75, 73, 0.6);
 }
+
 .navbar-toggler {
   background-color: #ffc107;
 }
+
 /* TITULO */
 .titulo {
   font-family: "musiciancrush", cursive;
   color: #ffc107;
   font-size: 3rem;
 }
+
 .titulo:hover {
   animation: scale-up-center 1s cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
 }
+
 /* BOTONERA */
 .miBtn {
   background-color: var(--miAzul);
   color: #ffffff;
 }
+
 .miBtn:hover {
   background-color: white;
   color: var(--miAzul);
 }
-.miBtnActive{
+
+.miBtnActive {
   background-color: var(--miAmarillo);
   color: var(--miAzul);
   border: solid 2px var(--miAzul);
 }
+
 /* MAIN */
 /* TARJETAS */
 #imgLauta {
   width: 17rem;
 }
+
 .miTarjeta {
   /* Mi azul con transparencia */
   background-color: rgba(28, 34, 48, 0.9);
   padding: 1.5rem;
 }
+
 .miSubTitulo {
   color: var(--miAmarillo);
 }
+
 /* FOOTER */
 .divFooter {
   background-color: black;
   position: relative;
 }
+
 .divFooter ::after {
   content: "";
   background-image: url(./assets/img/curveBlack.svg);
@@ -78,10 +90,10 @@ nav {
 }
 
 /* PAGES */
-
 .mainPages {
   min-height: calc(100vh - 56px - 98px);
 }
+
 /* BACKGROUNDS */
 .divBgHistoria {
   background-image: url(./assets/img/montevideoOldCity.jpg);
@@ -90,6 +102,7 @@ nav {
   background-repeat: no-repeat;
   position: relative;
 }
+
 .divBgVideos {
   background-image: url(./assets/img/montevideoIMM.jpg);
   background-position: center;
@@ -97,13 +110,15 @@ nav {
   background-repeat: no-repeat;
   position: relative;
 }
+
 .divBgContrataciones {
   background-image: url(./assets/img/montevideoSky.jpg);
-  background-position:bottom;
+  background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
 }
+
 .divBgContacto {
   background-image: url(./assets/img/Montevideo2.jpg);
   background-position: center;
@@ -133,8 +148,7 @@ nav {
 /* Animaciones */
 /* Animacion al Cargar la Pagina */
 .scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
@@ -150,7 +164,6 @@ nav {
  * See http://animista.net/license for more info. 
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
-
 /**
  * ----------------------------------------
  * animation scale-up-center
@@ -182,7 +195,6 @@ nav {
  * See http://animista.net/license for more info. 
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
-
 /**
  * ----------------------------------------
  * animation rotate-scale-down
@@ -216,3 +228,5 @@ nav {
     transform: scale(1) rotateZ(360deg);
   }
 }
+
+/*# sourceMappingURL=styles.css.map */
